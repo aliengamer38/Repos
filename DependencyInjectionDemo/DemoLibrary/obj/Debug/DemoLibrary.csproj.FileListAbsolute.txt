@@ -1,0 +1,5 @@
+C:\Users\Angelo Sevilleno\source\repos\DependencyInjectionDemo\DemoLibrary\bin\Debug\DemoLibrary.dll
+C:\Users\Angelo Sevilleno\source\repos\DependencyInjectionDemo\DemoLibrary\bin\Debug\DemoLibrary.pdb
+C:\Users\Angelo Sevilleno\source\repos\DependencyInjectionDemo\DemoLibrary\obj\Debug\DemoLibrary.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\source\repos\DependencyInjectionDemo\DemoLibrary\obj\Debug\DemoLibrary.dll
+C:\Users\Angelo Sevilleno\source\repos\DependencyInjectionDemo\DemoLibrary\obj\Debug\DemoLibrary.pdb
