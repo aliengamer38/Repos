@@ -1,0 +1,5 @@
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\LibFramework\bin\Debug\LibFramework.dll
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\LibFramework\bin\Debug\LibFramework.pdb
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\LibFramework\obj\Debug\LibFramework.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\LibFramework\obj\Debug\LibFramework.dll
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\LibFramework\obj\Debug\LibFramework.pdb

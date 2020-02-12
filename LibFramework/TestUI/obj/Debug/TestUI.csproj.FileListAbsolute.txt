@@ -1,0 +1,14 @@
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\bin\Debug\TestUI.exe.config
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\bin\Debug\TestUI.exe
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\bin\Debug\TestUI.pdb
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\MainWindow.g.cs
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\App.g.cs
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI_MarkupCompile.cache
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI_MarkupCompile.lref
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\MainWindow.baml
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.g.resources
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.Properties.Resources.resources
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.csproj.GenerateResource.cache
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.exe
+C:\Users\Angelo Sevilleno\Desktop\VisualStudioRepo\LibFramework\TestUI\obj\Debug\TestUI.pdb
