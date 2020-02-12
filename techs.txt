@@ -12,4 +12,12 @@ TECHNOLOGIES
 - React js
 - vue js
 - backbone js
+- gatsy js
+- ngrs
+- redux
 
+PLATFORMS
+- netlify
+
+EXTENSIONS
+- 
