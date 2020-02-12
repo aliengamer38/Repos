@@ -1,0 +1,15 @@
+TECHNOLOGIES
+- Express js
+- Webpack
+- Sinon js
+- Jest
+- Babel
+- Inkspace
+- Gimp
+- Postgresql
+- Mongo DB
+- Angular js
+- React js
+- vue js
+- backbone js
+

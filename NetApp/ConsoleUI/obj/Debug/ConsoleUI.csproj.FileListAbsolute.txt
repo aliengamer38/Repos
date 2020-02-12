@@ -1,0 +1,7 @@
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.g.resources
