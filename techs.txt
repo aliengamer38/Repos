@@ -20,4 +20,3 @@ PLATFORMS
 - netlify
 
 EXTENSIONS
-- 
