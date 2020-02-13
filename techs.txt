@@ -20,3 +20,6 @@ PLATFORMS
 - netlify
 
 EXTENSIONS
+- Path Intellisense
+- Material Icon Theme
+- ESLint
