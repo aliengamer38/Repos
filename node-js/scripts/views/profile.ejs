@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Document</title>
+		<style>
+			body {
+				background: skyblue;
+				font-family: Verdana;
+			}
+		</style>
+	</head>
+	<body>
+		<%- include ("partials/nav.ejs") %>
+		<h1>Contact Page</h1>
+		<p>Contacts: <%=person%></p>
+		<ul>
+			<%data.hobbies.forEach(function(item){ %>
+			<li><%= item %></li>
+			<%});%>
+		</ul>
+	</body>
+</html>

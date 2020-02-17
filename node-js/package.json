@@ -1,0 +1,19 @@
+{
+	"name": "js",
+	"version": "1.0.0",
+	"description": "This is a default package",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^13.7.1"
+	},
+	"dependencies": {
+		"ejs": "^3.0.1",
+		"express": "^4.13.4"
+	},
+	"repository": {}
+}
