@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUI", "WPFUI\WPFUI.csproj", "{AB421B02-E848-4867-8A82-812D6C325107}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorePOSLibrary", "CorePOSLibrary\CorePOSLibrary.csproj", "{21B186D7-4D50-454E-9A70-89212839A39F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AB421B02-E848-4867-8A82-812D6C325107}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB421B02-E848-4867-8A82-812D6C325107}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB421B02-E848-4867-8A82-812D6C325107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B186D7-4D50-454E-9A70-89212839A39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B186D7-4D50-454E-9A70-89212839A39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B186D7-4D50-454E-9A70-89212839A39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B186D7-4D50-454E-9A70-89212839A39F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

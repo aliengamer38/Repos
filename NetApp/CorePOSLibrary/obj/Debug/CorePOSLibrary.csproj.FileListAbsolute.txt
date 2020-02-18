@@ -1,0 +1,10 @@
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\obj\Debug\CorePOSLibrary.csprojAssemblyReference.cache
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.csprojAssemblyReference.cache
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
