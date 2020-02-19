@@ -1,0 +1,122 @@
+﻿
+/********* FONT STYLE*****************/
+
+.fontnormal
+{
+	font-family: Arial, Tahoma, MS Sans Serif;
+	font-size: 12.5px;
+}
+
+.fontnormalbold
+{
+	font-family: Arial, Tahoma, MS Sans Serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+.fontlarge
+{
+	font-family:Verdana, Tahoma, Arial;
+	font-size: 18px;
+	font-weight:bold;
+	
+}
+
+.fontsmall
+{
+	font-family: Arial, Tahoma, MS Sans Serif;
+	font-size: 11px;
+}
+
+.fontsmallbold
+{
+	font-family: Arial, Tahoma, MS Sans Serif;
+	font-size: 11px;
+	font-weight:bold;
+}
+
+p.spacingnormal
+{
+	line-height:120%;
+}
+
+.clsIndent
+{
+	text-indent:20px;
+	
+}
+
+h1
+{
+	text-align:left;  
+	vertical-align:middle;
+	color:#031E76;   
+	border-bottom:1px dotted #D3D3D3; 
+	padding-bottom:3px;
+	margin-bottom:0px;
+	/*margin-bottom:10px; */ 
+	font-family:Tahoma, Arial, Verdana;
+	font-size: 18px;
+	font-weight:bold;
+}
+
+ul 
+{ 
+	list-style-type:disc; 
+}
+
+
+/* Requester Info*/
+.clsLblVal
+{
+	float: left;
+	margin: 0px 10px  10px 0px;
+	width: 400px; /* width size by default */
+	
+}
+
+#divRequester
+{
+	float:left;
+	display:block;
+	width: 665px;
+	position:relative;
+	margin-bottom:0px;
+	padding: 0px 0px 5px 0px;
+	overflow: visible !important;
+}
+
+#divRequest
+{
+	width: 665px;
+}
+
+/* List of App*/
+.clsAppSubmitted
+{
+	 margin-top:20px;
+	 margin-bottom:20px;
+	 float:none !important;
+}
+
+.clsLbl
+{
+	float: left !important;
+	margin: 0px 10px 10px 20px;
+	width: 170px; /* width size by default */
+	border: none;
+}
+
+/*Payment Procedures, Important*/
+.divBottomSection
+{
+	float:none !important;
+	display:block;
+	width: 644px;
+	border: solid 1px #999999;
+	border-style:dotted;
+	position:relative;
+	margin-bottom:15px;
+	padding: 5px 15px 5px 15px;
+	overflow: visible !important;
+}

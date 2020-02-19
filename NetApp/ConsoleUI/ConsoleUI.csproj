@@ -74,5 +74,17 @@
   <ItemGroup>
     <Resource Include="Images\Tree.jpg" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CorePOSLibrary\CorePOSLibrary.csproj">
+      <Project>{21b186d7-4d50-454e-9a70-89212839a39f}</Project>
+      <Name>CorePOSLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\books.xml" />
+    <Content Include="Assets\data.xml" />
+    <Content Include="Assets\list_of_books.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,1 @@
+(function(n,t){"use strict";n.Class.autoCapitalization=function(){var n=this;return n.formId="",n.onReady=function(){t("form").find('input[type="text"]').each(function(){var i=t(this);if(i.hasClass("auto-cap"))i.on("blur",n.applyCapitalization)})},n.applyCapitalization=function(){var i=t(this),n=i.val();n=n.charAt(0).toUpperCase()+n.slice(1);i.val(n)},n}})(nca,jQuery)

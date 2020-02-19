@@ -1,0 +1,336 @@
+﻿
+body
+{
+	background: White;
+	font-family: verdana;
+	font-size: 11px;
+	color: #333333;
+}
+/*SET Printer Margin */
+@page
+{
+	margin: 0.0cm 0cm 0cm 0.55cm;
+}
+
+@media print
+{
+	#PrintArea
+	{
+		display: block;
+	}
+
+	fieldset
+	{
+		border: none;
+	}
+
+	mainBorder
+	{
+		border: none;
+	}
+
+	#page
+	{
+		background: none;
+	}
+	body
+	{
+		background: none;
+		font-family: verdana;
+		font-size: 9.5px;
+		width: 300px;
+	}
+
+	#btnPrint, #dvPrint, #ScreenArea, #headerDiv, #tbFooter, #ctl00_tdMenu, #tdClipper, #tdCaption, legend, #headerLogo, .loginDisplay, upIdleAnimation, Clipper, .header, #divHeader, #divHeaderFiller
+	{
+		display: none;
+	}
+	.AddressCaption
+	{
+		font-family: Verdana;
+		font-size: 8px;
+	}
+	.receiptValueMoney
+	{
+		text-align: right;
+		padding-right: 50px;
+	}
+	.receiptCaption
+	{
+		width: 115px;
+	}
+	.headerCaption
+	{
+		font-size: 8px;
+		width: 80px;
+	}
+	.headerValue
+	{
+		font-size: 7px;
+	}
+	table, th, tr
+	{
+		border: 0px;
+	}
+}
+
+.header
+{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+.receiptLogo
+{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.receiptpage
+{
+	background: url(../Images/cebwatermark.jpg);
+	width: 280px;
+	background-color: #fff;
+	margin: 0px auto 0px auto;
+	border: none;
+	color: Black;
+}
+.buttonPanel
+{
+	width: 300px;
+	margin: 0px auto 10px auto; /*border: 1px dashed whitesmoke;*/
+	color: Black;
+}
+
+.logoMiddle
+{
+	background: url(../Images/ceblogomiddle.png) repeat-x;
+	width: 100%;
+	height: 75px;
+}
+
+
+/* HEADINGS   
+							----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 1.5em;
+	color: #666666; /*font-variant: small-caps;*/
+	text-transform: none;
+	font-weight: 200;
+	margin-bottom: 0px;
+}
+
+.OrNumber
+{
+	font-size: 1.5em;
+	color: #666666; /*font-variant: small-caps;*/
+	text-transform: none;
+	font-weight: 200;
+	margin-bottom: 0px;
+}
+
+h1
+{
+	font-size: 1.3em;
+	margin: 0 0 0 0;
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #666666;
+	width: 27%;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9800', endColorstr='whitesmoke'); /* for IE */
+	background: -moz-linear-gradient(center top , #ff9800, whitesmoke) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff9800), to(whitesmoke)); /* for webkit browsers */
+	height: 24px;
+	font-weight: bold;
+	text-indent: 12px;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+h4
+{
+	font-size: 0.85em;
+}
+
+h5, h6
+{
+	font-size: 1em;
+}
+
+@media screen
+{
+	.pageNoBorder
+	{
+		padding-bottom: 5px;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		width: 830px;
+		background-color: #fff;
+		margin: 20px auto 0px auto;
+	}
+
+	.pageWithBorder
+	{
+		padding-bottom: 5px;
+		padding-top: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		width: 830px;
+		background-color: #fff;
+		margin: 20px auto 0px auto;
+		border: 1px solid #FFE700;
+		background: url(../Images/cebwatermark.jpg);
+	}
+	.headerCaption
+	{
+		font-size: 9px;
+		width: 90px;
+	}
+	.receiptCaption
+	{
+		width: 120px;
+	}
+	.receiptValueMoney
+	{
+		text-align: right;
+		padding-right: 50px;
+	}
+	.AddressCaption
+	{
+		font-family: Verdana;
+		font-size: 9px;
+		color: black;
+	}
+	.headerValue
+	{
+		font-size: 9px;
+	}
+}
+
+fieldset
+{
+	margin-top: 25px;
+	padding: 10px;
+	border: none;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcd71', endColorstr='#fff7e8');
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffcd71), to(#fff7e8)); /* for webkit browsers */
+	background: -moz-linear-gradient(center top , #ffcd71, #fff7e8) repeat scroll 0 0 transparent;
+}
+
+legend
+{
+	font-weight: bold;
+	background-color: #ff9e0e;
+	color: #fff;
+	font: 16px/18px Calibri, Arial, Helvetica, sans-serif;
+	padding: 0 15px;
+	margin: -25px 0 0 -11px;
+	border: 1px solid #fff;
+	border-color: #e5e5c3 #505014 #505014 #e5e5c3;
+	position: relative;
+}
+
+.orbutton
+{
+	background: url(../Images/button165x45.png) no-repeat 0 0;
+	width: 165px;
+	height: 45px;
+	font-family: 'Source Sans Pro' , sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+
+input[type=text],input[type=password]
+{
+    position:relative;
+    -moz-border-radius-topleft: 2px/*{cornerRadius}*/;
+	-webkit-border-top-left-radius: 2px/*{cornerRadius}*/;
+	-khtml-border-top-left-radius: 2px/*{cornerRadius}*/;
+	border-top-left-radius: 2px/*{cornerRadius}*/;
+	-moz-border-radius-topright: 2px/*{cornerRadius}*/;
+	-webkit-border-top-right-radius: 2px/*{cornerRadius}*/;
+	-khtml-border-top-right-radius: 2px/*{cornerRadius}*/;
+	border-top-right-radius: 2px/*{cornerRadius}*/;
+	-moz-border-radius-bottomleft: 2px/*{cornerRadius}*/;
+	-webkit-border-bottom-left-radius: 2px/*{cornerRadius}*/;
+	-khtml-border-bottom-left-radius: 2px/*{cornerRadius}*/;
+	border-bottom-left-radius: 2px/*{cornerRadius}*/;
+	-moz-border-radius-bottomright: 2px/*{cornerRadius}*/;
+	-webkit-border-bottom-right-radius: 2px/*{cornerRadius}*/;
+	-khtml-border-bottom-right-radius: 2px/*{cornerRadius}*/;
+	border-bottom-right-radius: 2px/*{cornerRadius}*/;
+	height:30px;
+	background: none repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    font-size:15px;
+    font-size:1.2em;
+    display:inline-block;
+    min-width:188px;
+	padding-left:15px;
+}
+
+.ErrorAsterisk
+{
+	font-size: 0em;
+	font-weight: bold;
+	color: Red;
+	margin-left:5px;
+}
+
+.failureNotification
+{
+	font-family: verdana;
+	border: none; /*background: -webkit-gradient(linear, left top, left bottom, from(#fff7e8), to(#ffcd71)); 	background: -moz-linear-gradient(center top ,  #fff7e8,#ffcd71) repeat scroll 0 0 transparent;*/
+	font-size: 1.2em;
+	color: Red;
+}
+
+.HeaderFiller
+{
+	background: url(../Images/1px_gradient.gif);
+	height: 20px;
+}
+
+/*Style for Modal Div*/
+.OuterProgressAnimator
+{
+	background-color: #616161; /*For IE Browser*/
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=15); /*Non IE Browser*/
+	opacity: 0.15;
+	z-index: 998;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+/*Style for Animated Image*/
+#InnerProgressAnimator
+{
+	border: 1px solid #cc9966;
+	background-color: White;
+	z-index: 999;
+	position: fixed;
+	left: 32%;
+	top: 35%;
+}

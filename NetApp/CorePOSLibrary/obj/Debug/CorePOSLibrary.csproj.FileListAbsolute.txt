@@ -1,0 +1,19 @@
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\WpfApp1\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\Fasetto\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\Fasetto\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.csprojAssemblyReference.cache
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\ANGELOCHRISTIANSEVIL\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
+C:\Users\Angelo Sevilleno\source\repos\Fasetto\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\Angelo Sevilleno\source\repos\Fasetto\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\Angelo Sevilleno\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\Angelo Sevilleno\source\repos\Fasetto\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\CorePOSLibrary\bin\Debug\CorePOSLibrary.dll
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\CorePOSLibrary\bin\Debug\CorePOSLibrary.pdb
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.dll
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\CorePOSLibrary\obj\Debug\CorePOSLibrary.pdb
