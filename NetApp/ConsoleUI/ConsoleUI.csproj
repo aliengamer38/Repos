@@ -82,6 +82,10 @@
   <ItemGroup>
     <Resource Include="Images\Tree.jpg" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup />
+>>>>>>> fbc1727d9ec7236f0dc8016ed7e5149fea278a79
   <ItemGroup>
     <ProjectReference Include="..\CorePOSLibrary\CorePOSLibrary.csproj">
       <Project>{21b186d7-4d50-454e-9a70-89212839a39f}</Project>
@@ -89,8 +93,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Assets\po.xml" />
     <Content Include="Assets\readme.txt" />
+=======
+    <Content Include="Assets\books.xml" />
+    <Content Include="Assets\data.xml" />
+    <Content Include="Assets\list_of_books.xml" />
+>>>>>>> fbc1727d9ec7236f0dc8016ed7e5149fea278a79
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

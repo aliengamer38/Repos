@@ -1,0 +1,10 @@
+@import url("form_text.css");
+@import url("reset.css") handheld; 
+@import url("reset.css") only screen and (max-device-width: 240px) and (min-device-height: 319px) and (max-device-height: 320px);
+@import url("reset.css") only screen and (min-device-width: 240px) and (max-device-width: 320px)  and (min-device-height: 239px) and (max-device-height: 240px);
+@import url("reset.css") only screen and (min-device-width: 319px) and (max-device-width: 320px)  and (min-device-height: 241px) and (max-device-height: 480px);
+@import url("reset.css") only screen and (min-device-width: 359px) and (max-device-width: 360px)  and (min-device-height: 479px) and (max-device-height: 480px);
+@import url("reset.css") only screen and (min-device-width: 479px) and (max-device-width: 480px)  and (min-device-height: 359px) and (max-device-height: 360px);
+@import url("reset.css") only screen and (min-device-width: 361px) and (max-device-width: 480px)  and (min-device-height: 481px) and (max-device-height: 854px);
+@import url("reset.css") only screen and (min-device-width: 639px) and (max-device-width: 640px)  and (min-device-height: 359px) and (max-device-height: 360px);
+

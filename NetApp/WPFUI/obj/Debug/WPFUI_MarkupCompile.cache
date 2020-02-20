@@ -4,15 +4,26 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\WPFUI\obj\Debug\
+=======
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\WPFUI\obj\Debug\
+>>>>>>> fbc1727d9ec7236f0dc8016ed7e5149fea278a79
 WPFUI
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\WPFUI\App.xaml
 4-1760806680
 
 8-235551661
+=======
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\WPFUI\App.xaml
+4-1760806680
+
+8-80334477
+>>>>>>> fbc1727d9ec7236f0dc8016ed7e5149fea278a79
 13-1505183044
 Launch.xaml;MainWindow.xaml;Styles\Brushes.xaml;Styles\Fonts.xaml;
 

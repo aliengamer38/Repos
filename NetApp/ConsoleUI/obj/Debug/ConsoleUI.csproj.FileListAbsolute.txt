@@ -5,6 +5,7 @@ C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debu
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.pdb
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\VisualStudioRepo\NetApp\ConsoleUI\obj\Debug\ConsoleUI.g.resources
+<<<<<<< HEAD
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe.config
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.pdb
@@ -15,3 +16,15 @@ C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.exe
 C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.pdb
+=======
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\CorePOSLibrary.dll
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\bin\Debug\CorePOSLibrary.pdb
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.g.resources
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\Angelo Sevilleno\Desktop\Repos\NetApp\ConsoleUI\obj\Debug\ConsoleUI.pdb
+>>>>>>> fbc1727d9ec7236f0dc8016ed7e5149fea278a79
