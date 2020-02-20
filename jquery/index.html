@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<head>
+			<style type="text/css">
+				.normal {
+					border: 2px solid red;
+				}
+				.special {
+					background-color: red;
+				}
+				.link {
+					text-decoration: underline;
+				}
+			</style>
+			<script>
+				document.write("<title>Index Page</title>");
+			</script>
+			<meta charset="UTF-8" />
+		</head>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			window.jQuery ||
+				document.write("<script src='jquery-3.4.1.min.js'><\/script>");
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				let fn = $("#firstName").val();
+				let ln = $("#lastName").val();
+				let m = {
+					fn,
+					ln
+				};
+				console.log(fn, ln);
+				$("#btn").bind("click", m, function(event) {
+					console.log(event.data.fn, event.data.ln);
+					m.fn = "modified";
+					m.ln = "modified";
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<input
+			type="text"
+			id="firstName"
+			name="firstName"
+			placeholder="type your first name..."
+		/>
+		<br />
+		<input
+			type="text"
+			id="lastName"
+			name="lastName"
+			placeholder="type your last name..."
+		/><br />
+		<button id="btn">Click Me</button>
+	</body>
+</html>

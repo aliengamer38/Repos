@@ -2,8 +2,15 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.Remoting.Contexts;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization.Formatters.Soap;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -55,14 +62,71 @@ namespace ConsoleUI
         }
     }
 
+    [Serializable]
+    public class Employee
+    {
+        string _name = "Name";
+        string _description = "Description";
+        public string Name { get; set; }
+        public int Number { get; set; }
+        public string Description { get; set; }
+        [OnSerializing]
+        void OnSerializing(StreamingContext context)
+        {
+            _name = _name.ToUpper();
+            _description = _description.ToUpper();
+        }
+        [OnDeserialized]
+        void OnDeserialized(StreamingContext context)
+        {
+            _name = _name.ToUpper();
+            _description = _description.ToUpper();
+        }
+    }
+
     public class Test
     {
+        static string path = @"C:\Users\ANGELOCHRISTIANSEVIL\Desktop\Test\launch.txt";
         public static void Main()
         {
-            // Read and write purchase orders.
-            Test t = new Test();
-            t.CreatePO(@"..\..\Assets\po.xml");
-            t.ReadPO(@"..\..\Assets\po.xml");
+            Monitor.Enter(null);
+            try
+            {
+                         
+            }
+            catch (Exception e)
+            {
+                Monitor.Exit(null);
+            }
+        }
+
+        static void Helper(object note)
+        {
+            Console.WriteLine(note);
+        }
+
+
+        static void AddComplete(IAsyncResult result)
+        {
+            Console.WriteLine(result.IsCompleted);
+        }
+
+        public static void Helper(int num1, int num2)
+        {
+            Console.WriteLine(num1 + num2);
+        }
+        private static void OnChanged(object sender, FileSystemEventArgs e)
+        {
+            if (e.ChangeType == WatcherChangeTypes.Created)
+            {
+                Directory.CreateDirectory($@"{path}\Note");
+                if (!File.Exists($@"{Path.GetDirectoryName(e.FullPath)}\Note\sample.txt"))
+                    File.Move(e.FullPath, $@"{Path.GetDirectoryName(e.FullPath)}\Note\sample.txt");                
+
+                FileSystemWatcher fw = (FileSystemWatcher)sender;
+                fw.EnableRaisingEvents = false;
+                
+            }
         }
 
         private void CreatePO(string filename)

@@ -14,9 +14,7 @@ using UI = ConsoleUI;
 namespace ConsoleUI
 {
     public class Execution
-    {
-        public List<Employee> Employees { get; set; } = new EmployeeDbContext().Employees;
-
+    {  
         public Execution()
         {
             Console.WriteLine("Execution constructor");
@@ -41,8 +39,8 @@ namespace ConsoleUI
     }
     public class Program
     {
-        
-            
+
+
     }
 
 
@@ -53,31 +51,5 @@ namespace ConsoleUI
             throw new NotImplementedException();
         }
     }
-    public class EmployeeEqualityComparer : IEqualityComparer<Employee>
-    {
-        public bool Equals(Employee x, Employee y)
-        {
-            string xName = $"{x.FirstName} {y.LastName}";
-            string yName = $"{x.FirstName} {y.LastName}";
-            return xName.Equals(yName);
-        }
-
-        public int GetHashCode(Employee emp)
-        {
-            return $"{emp.FirstName} {emp.LastName}".GetHashCode();
-        }
-    }
-
-    public class EmpBoolComparer : IEqualityComparer<Employee>
-    {
-        public bool Equals(Employee x, Employee y)
-        {
-            return x.IsCurrentlyEnrolled == y.IsCurrentlyEnrolled;
-        }
-
-        public int GetHashCode(Employee emp)
-        {
-            return $"{emp.FirstName} {emp.LastName}".GetHashCode();
-        }
-    }
 }
+   
