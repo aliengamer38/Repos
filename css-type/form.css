@@ -1,0 +1,51 @@
+
+nav ul {
+    list-style-type: none;
+    border: 2px solid green;
+    margin: 0;
+    padding: 0;
+}
+
+header .header-brand {
+    font-family: "lato";
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.header-brand {
+    border: 2px solid red;
+    width: 100px;
+    height: 200px;
+    float: left;
+}
+
+nav {
+    border: 1px solid blue;
+    width: 50%;
+    height: 500px;
+}
+
+.inline-block {
+    display: inline-block;
+    border: 2px solid green;
+}
+
+.block {
+    display: block;
+    border: 2px solid green;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+.container {
+    width: 500px;
+    border: 2px solid black;
+}

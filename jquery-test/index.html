@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(this).on("contextmenu", function(e) {
+                    e.preventDefault();
+                    alert("Right Clicked Disabled"); 
+                })
+                $(this).on("click", function(e) {
+                    e.preventDefault();
+                    while(true) {
+                        console.log(1)
+                    }
+                })
+            })                    
+        </script>
+        
+        </script>
+    </head>
+    <body>
+        <input
+            id="btn"
+            type="button"
+            value="Click Me"                             
+        />
+        <a href="https://www.google.com">Google</a>
+    </body>
+</html>
+
