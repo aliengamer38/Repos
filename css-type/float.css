@@ -1,0 +1,17 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+.red {
+    background-color: red;        
+    float: left; 
+    /* opacity: 0; */
+}
+.blue {
+    background-color: blue;   
+    width: 1000px;
+    display: block;
+    /* float: left;  */
+}

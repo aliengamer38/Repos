@@ -1,0 +1,55 @@
+.span {
+    /* display: inline;        */
+    /* padding: 10px; */
+    /* border: 2px solid green; */
+    vertical-align: top;
+    /* vertical-align: bottom; */
+}
+.container {
+    border: 2px solid red;
+    height: 500px;
+    line-height: 500px;
+}
+.text {
+    border: 2px solid blue;
+}
+
+.contain {
+    width: 500px;
+    border: 2px solid red;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.text-index {
+    border: 2px solid blue;
+    margin: 0;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nature {
+    vertical-align: bottom;
+    /* padding: 20px; */
+    border: 2px solid green;
+    background-color: yellow;
+}
+
+.box {
+    border: 2px solid aquamarine;
+    font-size: 100px;
+}
+
+.inline {
+    border: 2px solid green;
+    background-color: yellow;
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    vertical-align: text-top;
+    line-height: 100px;
+}

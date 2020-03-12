@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;        
+}
+
+header .header-brand {
+    font-family: "lato";
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header nav ul {
+    margin: 0 auto;
+    display: block;
+    width: -moz-fit-content;    
+    overflow: auto;
+    text-align: center;
+}
+
+header nav ul li {    
+    float: left;
+    list-style: none;    
+    padding: 0px 16px; 
+}
+
+header nav ul li a {
+    font-family: "lato";    
+    font-size: 16px;    
+    color: #111;
+}
+
+header .header-cases {
+    display: none;
+    
+}
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(img/nature.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    display: table;
+}
+
+.index-banner h2 {
+    font-size: 50px;
+    color: #f3f3f3;
+    text-align: center;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #111;    
+    line-height: 70px;
+}
+
+.index-banner h1 {
+    font-size: 28px;
+    color: #f3f3f3;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #111;    
+    line-height: 40px;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.index-links div  {
+    margin: 16px 16px 0px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+    font-size: 28px;
+    color: #111;
+    text-align: center;    
+    font-weight: 600;    
+    line-height: 100px;
+    text-transform: uppercase;
+}
+footer {
+    width: calc(100% - 60px);
+    padding: 30px 30px;
+    background-color: #111;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;        
+}
+
+footer ul li a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+}
+.footer-sm {
+    width: 60px;
+    float: right;    
+}
+.footer-sm img {
+    width: 100%;    
+}
+.footer-cases {
+    display: none;
+}
+.footer-info {
+    width: 60%;
+}
+
+@media only screen and (min-width: 1000px) {
+    header {
+        /* margin: 0; */
+        /* text-align: left;                 */
+        /* float: left;              */
+    }
+    .header-brand 
+    {
+        /* margin: 0; */
+        /* text-align: left;                 */
+        /* float: left;
+        padding: 20px; */
+    }
+}
+

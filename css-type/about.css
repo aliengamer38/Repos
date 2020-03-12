@@ -1,0 +1,36 @@
+.content {
+    padding: 0px;
+    background-color: aquamarine;
+    clear:both;   
+    border: 2px solid red;
+    margin-top: 30px;
+}
+.container {        
+    background-color: gray;
+    border: 2px solid gray;
+    /* opacity: 0; */
+}
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box {
+    padding: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;  
+    float: left;  
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.clear {
+    clear: both;
+}
