@@ -1,0 +1,6 @@
+.normal p#unique {
+    color: red;
+}
+.special #unique {
+    color: green;
+}

@@ -1,0 +1,11 @@
+.items {
+    display: flex;
+    flex-flow: row wrap;
+}
+.item {
+    height: 500px;
+    flex-basis: 20%;
+    /* width: 20%; */
+    background-color: aquamarine;
+    border: 1px solid red;
+}

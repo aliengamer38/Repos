@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border: 1px solid #333;
+}
+.special {
+    position: absolute;
+}

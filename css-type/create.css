@@ -1,0 +1,19 @@
+table {
+    width: 400px;
+}
+.div {
+    background-color: aquamarine;
+    text-align: center;
+}
+.span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;    
+}
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #ddd;
+}

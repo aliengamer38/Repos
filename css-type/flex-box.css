@@ -1,0 +1,71 @@
+.flex {    
+    background-color: aquamarine;    
+    border: 1px solid red;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;      
+    flex-wrap:  wrap; 
+    /* justify-content: space-around; */
+    /* height: 500px; */
+
+    width: 700px;
+    height: 700px;        
+    /* align-items: flex-start;  */
+    /* align-content: space-between; */
+    /* align-items: center; */
+    /* align-content: space-around; */
+    /* flex-wrap: wrap;    */
+    /* flex-direction: column; */
+    /* justify-content: ;       */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+}
+
+.one {
+    flex-shrink: 3;
+}
+.two {
+    flex-grow: 1;
+}
+/*
+.three {
+    flex-grow: 1;
+}
+.four {
+    flex-grow: 2;
+}
+.five {
+    flex-grow: 1;
+} */
+/* .one {
+    flex-basis: 30%;
+}
+.two {
+    flex-basis: 60%;
+} */
+.flex-item {    
+        
+    background-color: aqua;
+    box-sizing: border-box;
+    border: 1px solid green; 
+    /* width: 35%;             */
+    /* flex-grow: 1; */
+    /* flex-grow: 2; */
+}
+
+.square {
+    width: 200px;
+    display: inline-block;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid green;
+}
+.rectangle {
+    width: 700px;
+    height: 200px;
+    background-color: chocolate;
+}
+.img {
+    width: 400px;
+    height: 200px   
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0;
+    /* height: calc(100vh - 20px);
+    width: calc(100vw - 20px); */
+    border: 10px solid red;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+img {
+    margin: 10px;
+    height: 90px;
+    width: 150px;
+}
+
+.flex-item {
+    display: inline;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    border: 1px solid green;    
+    /* width: 400px; */
+}
+.one::after {
+    content: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    word-break: break-all;
+}

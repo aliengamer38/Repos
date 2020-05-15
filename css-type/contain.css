@@ -1,0 +1,33 @@
+* {
+    font-family: "Lato";
+}
+h1 {
+    text-align: center;
+}
+.container {
+    width: 50%;
+    margin: auto;    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    align-content: flex-start;
+}
+.image {
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+img {
+    width: 100%;      
+    height: 100%;
+}
+.image-box {
+    flex-basis: 45%;
+    border: 1px solid #333;
+}
+
+.image-description {
+    box-sizing: border-box;
+    padding: 10px;
+}

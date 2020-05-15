@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";    
+}
+
+.main-nav {
+    list-style-type: none;
+    margin: 20px;
+    display: flex;
+    background-color: #eee;
+    font-size: 20px;
+}
+.main-nav > li > a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main-nav > li {
+    width: 100%;
+    flex-basis: 10%;
+}
+
+.dropdown > ul {
+    list-style-type: none;    
+}
+.dropdown {
+    position: absolute;
+}

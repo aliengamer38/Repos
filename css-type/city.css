@@ -1,0 +1,40 @@
+* {
+    font-family: "Lato";
+}
+.wrapper {
+    margin: auto;
+    width: 10%;    
+}
+.box {
+    width: 100%;    
+    text-align: center;    
+    text-transform: uppercase;
+    font-size: 24px;
+    cursor: pointer;
+    color: #f3f3f3;
+    font-weight: bold;
+    padding: 70px 0;
+    letter-spacing: 2px;    
+}
+.front {
+    background-color: #267df4;    
+    position: absolute;        
+    top: 30px;
+    right: 30px;
+    width: 180.8px;
+    animation: note 1s ease forwards;
+    
+}
+.back {    
+    background-color: #e74853;
+}
+
+@keyframes note {
+    /* 0% {
+        
+    }     */
+    100% {
+        /* right: 500px; */
+        top: 200px;
+    }
+}

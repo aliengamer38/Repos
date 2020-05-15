@@ -1,0 +1,15 @@
+.main {
+    border: 1px solid green;
+    height: 100px;
+    width: 30%; 
+    margin: auto;
+    animation: drop 1.5s 1s normal infinite alternate ;    
+}
+@keyframes drop {
+    0% {
+        transform: translateY(100px);
+    }
+    50% {
+        transform: translateY(50px);
+    }    
+}

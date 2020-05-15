@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    width: 40%;
+    margin: auto;    
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    /* align-content: space-between; */
+
+}
+.item {
+    border: 1px solid #333;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}

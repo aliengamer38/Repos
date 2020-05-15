@@ -1,0 +1,11 @@
+.container {
+  width: 40vw;
+  height: 40vh;
+  background-color: aquamarine;
+}
+.flex-item {
+  border: 1px solid red;
+}
+.flex-item::after {
+  content: "This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. This is a text. ";
+}

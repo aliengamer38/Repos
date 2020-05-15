@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.machine {
+    margin: 20px;
+    border: 1px solid red;
+}
+.main {
+    /* margin: 10px; */
+    border: 1px solid blue;
+}
